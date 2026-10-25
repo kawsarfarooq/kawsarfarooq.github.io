@@ -1,0 +1,135 @@
+{
+  "projects": [
+    {
+      "title": "Regulatory Copilot",
+      "category": "LLM Systems",
+      "description": "On-premise AI coding assistant for regulated software development, combining Qwen2.5-Coder 14B, vLLM, Continue and read-only MCP retrieval. README reports 5/5 retrieval test cases passed.",
+      "stack": "Qwen2.5-Coder · vLLM · MCP · Continue",
+      "url": "https://github.com/kawsarfarooq/regulatory-copilot",
+      "year": "2026"
+    },
+    {
+      "title": "AI RAG Agent with Persistent Memory",
+      "category": "LLM Systems",
+      "description": "Document-grounded assistant with local embeddings, ChromaDB retrieval, PDF/TXT/Markdown indexing, source attribution and persistent conversation memory. Chat uses the Moonshot AI API.",
+      "stack": "Python · LangChain · ChromaDB · Sentence Transformers",
+      "url": "https://github.com/kawsarfarooq/RAG_AI_AGENT",
+      "year": "2025"
+    },
+    {
+      "title": "Multi-Agent Pharmacy Night-Shift Scheduling",
+      "category": "Optimization",
+      "description": "Factor-graph DCOP scheduling with Max-Sum message passing and dynamic repair. The Bologna-grounded synthetic scenario reports a Jain fairness index of 0.9899.",
+      "stack": "Python · DCOP · Max-Sum · Multi-Agent Systems",
+      "url": "https://github.com/kawsarfarooq/Fair-pharmacy-night-shift-scheduling-as-a-DCOP",
+      "year": "2026"
+    },
+    {
+      "title": "Wind Turbine Predictive Maintenance",
+      "category": "Machine Learning",
+      "description": "SCADA-based anomaly detection, missing-data robustness and simulated maintenance decisions. Documented farm-specific ROC-AUC scores include 0.858 and 0.740.",
+      "stack": "Python · PCA · GMM · Isolation Forest",
+      "url": "https://github.com/kawsarfarooq/Wind-Turbine-Predictive-Maintenance",
+      "year": "2026"
+    },
+    {
+      "title": "AG News Text Classification",
+      "category": "Natural Language Processing",
+      "description": "Four-class news classification using TF-IDF and classical ML models on 127,600 articles; reported best test accuracy 92.80% with Linear SVM.",
+      "stack": "Python · TF-IDF · SVM · scikit-learn",
+      "url": "https://github.com/kawsarfarooq/AG-News-Text-Classification-with-Classical-ML",
+      "year": "2026"
+    },
+    {
+      "title": "Incremental Learning for Remote Sensing Images",
+      "category": "Computer Vision",
+      "description": "Master’s thesis at Beihang University exploring incremental learning for remote sensing image classification.",
+      "stack": "Remote Sensing · Incremental Learning · Computer Vision",
+      "url": "",
+      "year": "2024"
+    },
+    {
+      "title": "Person Detection Using LiDAR Point Clouds",
+      "category": "Robotics & Vision",
+      "description": "Bachelor’s thesis at Beihang University focused on person detection from 3D LiDAR point-cloud data.",
+      "stack": "LiDAR · 3D Perception · Detection",
+      "url": "",
+      "year": "2021"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "GeoFACT: Geospatial Few-Shot Adaptive and Compatible Training Framework for Remote Sensing Images Classification",
+      "authors": "Farooq, K., Zarar, M., Muhammad, Y., Hasnat, M., Li, Y., & Luo, X.",
+      "venue": "ICCK Transactions on Applied Intelligence and Cybernetics, 1(1), 53–66",
+      "doi": "https://doi.org/10.62762/TAIC.2026.348838"
+    },
+    {
+      "year": "2025",
+      "title": "Pulmonary Embolism Detection with Grad-CAM Visual Attention: A Hybrid Deep Learning-based Approach",
+      "authors": "Zarar, M., Muhammad, Y., Farooq, K., et al.",
+      "venue": "Frontiers in Engineering and Built Environment, vol. 6",
+      "doi": "https://doi.org/10.65955/FEBE-11-2025-01307"
+    },
+    {
+      "year": "2023",
+      "title": "The Role of Socioeconomic Factors in Improving the Performance of Students Based on Intelligent Computational Approaches",
+      "authors": "Muhammad, Y., Hassan, M. A., Almotairi, S., Farooq, K., Granelli, F., & Strážovská, Ľ.",
+      "venue": "Electronics, 12(9), 1982",
+      "doi": "https://doi.org/10.3390/electronics12091982"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2024",
+      "title": "Distinguished Foreign Student Scholarship for Outstanding Behavior — Second Prize"
+    },
+    {
+      "year": "2021–2024",
+      "title": "Chinese Government Scholarship (CSC)"
+    },
+    {
+      "year": "2017–2021",
+      "title": "Beijing International Scholarship — full undergraduate scholarship"
+    },
+    {
+      "year": "2021",
+      "title": "Excellent International Graduate, Beihang University"
+    },
+    {
+      "year": "2020 / 2019",
+      "title": "Distinguished Foreign Student Scholarship — First Prize / Second Prize"
+    },
+    {
+      "year": "2018",
+      "title": "BUAA Foreign Students Scholarship for Excellence in Study"
+    },
+    {
+      "year": "2021–2024",
+      "title": "Postgraduate Student Representative, Beihang University"
+    },
+    {
+      "year": "2022–2024",
+      "title": "Head of Volunteers, Beihang University"
+    },
+    {
+      "year": "2020–2021",
+      "title": "Vice President, Undergraduate Student Union"
+    }
+  ],
+  "news": [
+    {
+      "year": "2026",
+      "title": "GeoFACT published in ICCK Transactions on Applied Intelligence and Cybernetics."
+    },
+    {
+      "year": "2026",
+      "title": "Built and documented research projects in multi-agent scheduling and wind-turbine predictive maintenance."
+    },
+    {
+      "year": "2025",
+      "title": "Developed an AI RAG agent with document search and persistent conversation memory."
+    }
+  ]
+}

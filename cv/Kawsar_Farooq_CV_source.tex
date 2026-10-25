@@ -1,0 +1,518 @@
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{titlesec}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont{FandolSong-Regular}
+
+\definecolor{darkblue}{RGB}{0,0,139}
+
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,right=0pt,top=0pt,bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Consistent section spacing throughout the CV
+\titleformat{\section}
+  {\scshape\raggedright\large}
+  {}{0em}{}
+  [\color{black}\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-1mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-1mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1mm}}
+
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+
+\newcommand{\googleicon}{%
+  \raisebox{-0.15em}{%
+    \begingroup
+    \setlength{\fboxsep}{0.6pt}%
+    \color{darkblue}%
+    \fbox{\scriptsize\textbf{G}}%
+    \endgroup
+  }%
+}
+
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont}
+
+\begin{document}
+\headerfontiii
+
+% ==========================
+% HEADER
+% ==========================
+\begin{center}
+    {\Huge\textbf{Kawsar Farooq 卡萨}}
+\end{center}
+\vspace{-3mm}
+
+\begin{center}
+\small{
+
+\faEnvelope\ \href{mailto:kawsar.farooq@tju.edu.cn}{kawsar.farooq@tju.edu.cn} \;|\;
+\socialicon{\faLinkedin}\ \href{https://www.linkedin.com/in/kawsarfarooq/}{LinkedIn} \;|\;
+\socialicon{\faGithub}\ \href{https://github.com/kawsarfarooq}{GitHub} \;|\;
+\googleicon\ \href{https://scholar.google.com/citations?user=bAf2CIQAAAAJ&hl=en}{Google Scholar}
+}
+\end{center}
+
+% ==========================
+% OBJECTIVE
+% ==========================
+\section{\textbf{Objective}}
+\vspace{1mm}
+\begingroup
+  \small
+  \setlength{\emergencystretch}{3em}
+  \begin{justify}
+  A dedicated researcher with strong interest in AI, ML, and software-based intelligent systems. I am passionate about developing practical, secure, and efficient AI solutions to solve real-world problems. I have strong analytical, technical, and problem-solving skills, with a commitment to continuous learning, research, and practical implementation of AI technologies.
+  \end{justify}
+\endgroup
+\vspace{-2mm}
+
+% ==========================
+% EDUCATION
+% ==========================
+\section{\textbf{Education}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+
+
+  {Tianjin University}{Tianjin, China}
+  {Doctoral Studies in Artificial Intelligence}{September 2025 -- Present}
+\resumeSubheading
+  {Beihang University}{Beijing, China}
+  {Master's Degree in Information and Communication Engineering}{September 2021 -- July 2024}
+
+\resumeSubheading
+  {Beihang University}{Beijing, China}
+  {Bachelor's Degree in Electronic Information Engineering}{September 2017 -- July 2021}
+
+\resumeSubHeadingListEnd
+% Section spacing controlled by \titlespacing
+
+
+% ==========================
+% EXPERIENCE
+% ==========================
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {LLM Algorithm R\&D}{Beijing, China}
+  {LLM Research \& Development Intern}{Oct 2025 -- Mar 2026}
+\resumeItemListStart
+  \item Contributed to research and development of large language model (LLM) applications.
+  \item Supported algorithm optimization and evaluation for LLM-based application scenarios.
+  \item Explored approaches to improving model performance and usability in practical applications.
+\resumeItemListEnd
+
+\resumeSubheading
+  {Lenovo}{Beijing, China}
+  {AI Research Intern}{Mar 2024 -- Jun 2024}
+\resumeItemListStart
+  \item Researched emerging AI technologies and evaluated their potential applications in international marketing.
+  \item Analyzed overseas marketing use cases and assessed AI-powered product capabilities.
+  \item Conducted data analysis and performance assessments of large language models to support AI application research.
+\resumeItemListEnd
+
+\resumeSubheading
+  {Mercedes-Benz Sales Services, AI Innovation Lab}{Beijing, China}
+  {AI Innovation Lab Intern}{Nov 2023 -- Feb 2024}
+\resumeItemListStart
+  \item Analyzed dealer feedback to identify opportunities for improving digital training platforms and content delivery.
+  \item Researched and evaluated AI technologies, including ChatGPT, for innovative training applications.
+  \item Coordinated with global headquarters to assess emerging training technologies and their applicability in the Chinese market.
+\resumeItemListEnd
+
+\resumeSubheading
+  {Popular Robotics}{Beijing, China}
+  {Robotics Engineering Intern}{Jun 2020 -- Aug 2021}
+\resumeItemListStart
+  \item Assembled and programmed four-wheeled robotic vehicles, focusing on hardware integration and motion control.
+  \item Supported the development and control of unmanned aerial vehicles (UAVs) through robotics hardware and programming.
+  \item Developed educational robotics and programming content for the Robociti online learning platform.
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+% Section spacing controlled by \titlespacing
+
+
+
+
+% ==========================
+% PUBLICATIONS
+% ==========================
+\section{\textbf{Publications}}
+
+% Highlight author's name
+\newcommand{\highlightname}[1]{\underline{\textbf{#1}}}
+
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=0.5em, align=left, itemindent=0em]
+
+\item \highlightname{Farooq, K.}, Zarar, M., Muhammad, Y., Hasnat, M., Li, Y., \& Luo, X. (2026).
+\textbf{GeoFACT: Geospatial Few-Shot Adaptive and Compatible Training Framework for Remote Sensing Images Classification}.
+\textit{ICCK Transactions on Applied Intelligence and Cybernetics}, 1(1), 53--66.
+DOI: \href{https://doi.org/10.62762/TAIC.2026.348838}{10.62762/TAIC.2026.348838}.
+
+\item Zarar, M., Muhammad, Y., \highlightname{Farooq, K.}, et al. (2025).
+\textbf{Pulmonary Embolism Detection with Grad-CAM Visual Attention: A Hybrid Deep Learning-based Approach}.
+\textit{Frontiers in Engineering and Built Environment}, Vol. 6.
+DOI: \href{https://doi.org/10.65955/FEBE-11-2025-01307}{10.65955/FEBE-11-2025-01307}.
+
+\item Muhammad, Y., Hassan, M. A., Almotairi, S., \highlightname{Farooq, K.}, Granelli, F., \& Strazovska, L. (2023).
+\textbf{The Role of Socioeconomic Factors in Improving the Performance of Students Based on Intelligent Computational Approaches}.
+\textit{Electronics}, 12(9), 1982.
+DOI: \href{https://doi.org/10.3390/electronics12091982}{10.3390/electronics12091982}.
+
+\end{enumerate}
+}
+\vspace{-2mm}
+
+
+% % ==========================
+% % ACADEMIC / PROFESSIONAL SERVICE
+% % ==========================
+% \section{\textbf{Academic \& Professional Service}}
+% \vspace{-0.4mm}
+% \resumeSubHeadingListStart
+
+% \resumePOR{Reviewer}{, International Journal of Electrical and Computer Engineering (IJECE)}{Deep Learning \& Machine Learning}
+
+% \resumePOR{Reviewer}{, 23rd International Conference on Frontiers of Information Technology (FIT 2026)}{}
+
+% \resumePOR{Reviewer}{, 2026 International Conference on Applied Artificial Intelligence (2AI-2026), Central University of Kashmir}{}
+
+% \resumePOR{Reviewer}{, Computer Methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization (Journal)}{}
+
+% \resumeSubHeadingListEnd
+% % Section spacing controlled by \titlespacing
+
+
+
+% ==========================
+% RESEARCH & TECHNICAL PROJECTS
+% ==========================
+\section{\textbf{Research \& Technical Projects}}
+\resumeSubHeadingListStart
+
+% ==========================
+% PROJECT 1
+% ==========================
+\resumeSubheading
+  {Incremental Learning for Remote Sensing Image Classification}
+  {}
+  {Master's Thesis | Beihang University}
+  {}
+\resumeItemListStart
+  \item Investigated incremental learning methods for remote sensing image classification.
+  \item Explored machine learning approaches for learning new image classes while retaining previously acquired knowledge.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 2
+% ==========================
+\resumeSubheading
+  {Regulatory Copilot: On-Premise LLM Assistant}
+  {\href{https://github.com/kawsarfarooq/regulatory-copilot}{GitHub}}
+  {Qwen2.5-Coder, vLLM, MCP, Continue, VS Code}
+  {2026}
+\resumeItemListStart
+  \item Developed an on-premise AI coding assistant integrating Qwen2.5-Coder 14B and vLLM for private model inference.
+  \item Integrated regulatory document retrieval through the Model Context Protocol (MCP), supporting source and PDF page citations.
+  \item Evaluated document retrieval across regulatory and cybersecurity topics, passing 5 out of 5 documented test cases.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 3
+% ==========================
+\resumeSubheading
+  {AI RAG Agent with Persistent Memory}
+  {\href{https://github.com/kawsarfarooq/RAG_AI_AGENT}{GitHub}}
+  {Python, LangChain, ChromaDB, Sentence Transformers}
+  {2025}
+\resumeItemListStart
+  \item Developed a Retrieval-Augmented Generation (RAG) assistant for semantic document search and contextual question answering.
+  \item Integrated ChromaDB and Sentence Transformers for local embeddings, vector retrieval, and document indexing.
+  \item Implemented persistent conversation memory and response generation using the Moonshot AI API.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 4
+% ==========================
+\resumeSubheading
+  {Multi-Agent Pharmacy Night-Shift Scheduling}
+  {\href{https://github.com/kawsarfarooq/Fair-pharmacy-night-shift-scheduling-as-a-DCOP}{GitHub}}
+  {Python, DCOP, Max-Sum, Multi-Agent Systems}
+  {2026}
+\resumeItemListStart
+  \item Developed a multi-agent scheduling framework using Distributed Constraint Optimization Problems (DCOP) and Max-Sum message passing.
+  \item Modelled worker availability, geographic eligibility, regulatory constraints, and workload fairness using factor graphs.
+  \item Evaluated synthetic scenarios and a Bologna-grounded case study, achieving a Jain fairness index of 0.9899 with zero hard-constraint violations.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 5
+% ==========================
+\resumeSubheading
+  {Wind Turbine Predictive Maintenance}
+  {\href{https://github.com/kawsarfarooq/Wind-Turbine-Predictive-Maintenance}{GitHub}}
+  {Python, Machine Learning, PCA, GMM, Isolation Forest}
+  {2026}
+\resumeItemListStart
+  \item Developed a machine learning pipeline for anomaly detection and condition monitoring using wind-turbine SCADA sensor data.
+  \item Evaluated PCA, Gaussian Mixture Models, and Isolation Forest with residual modelling and missing-data robustness analysis.
+  \item Obtained farm-specific ROC-AUC scores of 0.858 and 0.740 and investigated cost-aware maintenance strategies through simulation.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 6
+% ==========================
+\resumeSubheading
+  {AG News Text Classification}
+  {\href{https://github.com/kawsarfarooq/AG-News-Text-Classification-with-Classical-ML}{GitHub}}
+  {Python, NLP, TF-IDF, SVM, Logistic Regression}
+  {2026}
+\resumeItemListStart
+  \item Developed a multi-class text classification pipeline using 127,600 news articles across four categories.
+  \item Compared Naive Bayes, Logistic Regression, and Linear SVM models using TF-IDF features.
+  \item Achieved 92.80\% test accuracy and 92.79\% macro-F1 using a tuned Linear SVM classifier.
+\resumeItemListEnd
+
+% ==========================
+% PROJECT 7
+% ==========================
+\resumeSubheading
+  {Person Detection Using LiDAR Point Clouds}
+  {}
+  {Bachelor's Thesis | Beihang University}
+  {}
+\resumeItemListStart
+  \item Investigated person detection using LiDAR point-cloud data.
+  \item Explored three-dimensional sensing techniques for detecting people in spatial environments.
+\resumeItemListEnd
+
+% ==========================
+% ADDITIONAL PROJECTS
+% ==========================
+\resumeSubHeadingListEnd
+
+\vspace{1mm}
+\textbf{Additional AI, Robotics \& Engineering Projects}
+\vspace{-1mm}
+
+\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=2pt]
+  \item \textbf{MetaGPT AI Agent Deployment:}
+  Local deployment of MetaGPT-based AI agents for managing multiple tasks.
+
+  \item \textbf{MinerU Integration (UI \& CLI):}
+  Integration of MinerU for document processing through graphical and command-line interfaces.
+
+  \item \textbf{Quadcopter Drone using Pixhawk \& Raspberry Pi:}
+  Robotics project involving drone hardware and flight-control components.
+
+  \item \textbf{Autonomous Four-Wheeled Line-Following Robot:}
+  Development of an autonomous line-following robotic vehicle.
+
+  \item \textbf{Wireless Gas Flow Control System:}
+  Embedded-system project exploring wireless gas-flow control for smart kitchen applications.
+
+  \item \textbf{Electronic Engineering Practical Training:}
+  Hands-on electronic engineering training at Beihang University.
+\end{itemize}
+
+% Section spacing controlled by \titlespacing
+
+
+% ==========================
+% SKILLS
+% ==========================
+\section{\textbf{Skills}}
+\resumeHeadingSkillStart
+  \resumeSubItem{AI/ML}{Machine Learning, Deep Learning, Model Evaluation, Metrics}
+  \resumeSubItem{Computer Vision}{Medical Imaging, Classification, Detection Pipelines}
+  \resumeSubItem{NLP}{Text Classification, Feature Selection, Preprocessing}
+  \resumeSubItem{Programming}{Python, Flutter/Dart}
+  \resumeSubItem{Data}{Pandas, Matplotlib, Data Visualization, Data Preprocessing}
+  \resumeSubItem{Tools}{Git/GitHub, TensorFlow Lite}
+\resumeHeadingSkillEnd
+% Section spacing controlled by \titlespacing
+
+
+% ==========================
+% HONORS, AWARDS & LEADERSHIP
+% ==========================
+\section{\textbf{Honors, Awards \& Leadership}}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+
+  \item \textbf{Distinguished Foreign Student Scholarship for Outstanding Behavior} -- Second Prize, 2024.
+
+  \item \textbf{Chinese Government Scholarship (CSC)} -- Scholarship recipient, 2021--2024.
+
+  \item \textbf{Beijing International Scholarship} -- 100\% undergraduate scholarship, 2017--2021.
+
+  \item \textbf{Distinguished Foreign Student Scholarship for Outstanding Behavior} -- First Prize (2020), Second Prize (2019).
+
+  \item \textbf{BUAA Foreign Students Scholarship for Excellence in Study} -- 2018.
+
+  \item \textbf{Excellent International Graduate} -- Beihang University, 2021.
+
+  \item \textbf{Organizer, International Culture Festival} -- Beihang University, 2023.
+
+  \item \textbf{Postgraduate Student Representative} -- Beihang University, 2021--2024.
+
+  \item \textbf{Head of Volunteers} -- Beihang University, 2022--2024.
+
+  \item \textbf{Vice President, Undergraduate Student Union} -- Beihang University, 2020--2021.
+
+  \item \textbf{Undergraduate Batch Representative} -- Beihang University, 2017--2021.
+
+  \item \textbf{Head of Sports, International Student Union} -- Beihang University, 2018.
+
+  \item \textbf{Alumni Class Liaison Award} -- Class of 2017, awarded in 2021.
+
+\end{itemize}
+
+% Section spacing controlled by \titlespacing
+
+
+
+
+% ==========================
+% LANGUAGES
+% ==========================
+\section{\textbf{Languages}}
+
+\small{
+\textbf{Pashto:} Native \quad | \quad
+\textbf{Urdu:} Native \quad | \quad
+\textbf{English:} Fluent \quad | \quad
+\textbf{Chinese (Mandarin):} Intermediate \quad | \quad
+\textbf{Italian:} Beginner
+}
+
+% Section spacing controlled by \titlespacing
+
+
+
+
+% ==========================
+% REFERENCES
+% ==========================
+\section{\textbf{References}}
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=2mm]
+
+
+\item \textbf{Prof. Qi Zhao}\\
+Professor, Beihang University\\
+Beijing, China\\
+Email: \href{mailto:zhaoqi@buaa.edu.cn}{zhaoqi@buaa.edu.cn}\\
+Website: \href{https://buaa.globalimpact.cn/en/persons/qi-zhao/}{Faculty Profile}
+
+
+\item \textbf{Prof. Kuangyu Zheng}\\
+Associate Professor, Beihang University\\
+Beijing, China\\
+Email: \href{mailto:zhengky@buaa.edu.cn}{zhengky@buaa.edu.cn}\\
+Website: \href{https://buaa.globalimpact.cn/en/persons/kuangyu-zheng/}{Faculty Profile}
+
+\end{enumerate}
+}
+\vspace{-2mm}
+
+\end{document}
+
