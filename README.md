@@ -1,6 +1,6 @@
 # Kawsar Farooq — Academic Portfolio
 
-Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaScript and JSON; no backend or build step. The visual design uses warm ivory surfaces, navy accents, serif headings and a personal portrait, with responsive publication and project layouts.
+Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaScript and JSON; no backend or build step. The visual design is a minimal academic homepage inspired by ttfish.cc: a compact photo and biography, white background, simple blue links and text-based research sections.
 
 ## Files
 
@@ -9,7 +9,7 @@ Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaSc
 - `assets/main.js`: content rendering, project search/filtering, accessible navigation and persistent color scheme.
 - `assets/styles.css`: responsive styles and accessibility states.
 - `assets/favicon.svg`: vector monogram.
-- `assets/portrait.png`: uploaded portrait used in the hero; original retained as `07.png`.
+- `assets/profile.jpg`: browser-compatible JPEG converted from the uploaded `08.png` (which is HEIF despite its filename). Photo metadata removed; original upload retained locally.
 - `cv/Kawsar_Farooq_CV_source.tex`: corrected LaTeX source; compile with XeLaTeX and the required packages/fonts.
 - `.nojekyll`: serve as a static site.
 - `AUDIT.md`: review results and outstanding checks.
@@ -18,7 +18,7 @@ Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaSc
 
 The supplied PDF contained excluded education and outdated contact information. It was moved outside this repository to `../private-review/Kawsar_Farooq_CV.outdated.pdf`, rather than edited or regenerated. The original starter ZIP was also moved there because it contains excluded information. That directory is ignored by the parent repository. Do not upload it or serve the parent workspace.
 
-The site currently offers **Request CV** email links. Export a reviewed PDF from the corrected LaTeX source to `cv/Kawsar_Farooq_CV.pdf`. Confirm its education, contact details, metadata and visual layout before publishing it. Replace both Request CV anchors in `index.html` with `href="cv/Kawsar_Farooq_CV.pdf" download` and label them Download CV. The source and original condensed PDF are different documents; the source has not been compiled or visually validated here.
+The profile currently has a discreet **Curriculum vitae** email inquiry link, with an accessible label and tooltip explaining that it opens email. Export a reviewed PDF from the corrected LaTeX source to `cv/Kawsar_Farooq_CV.pdf`. Confirm its education, contact details, metadata and visual layout before publishing it. Once the PDF is verified, change the Curriculum vitae anchor in `index.html` to `href="cv/Kawsar_Farooq_CV.pdf" download`, remove its email-specific aria-label and title, and retain the Curriculum vitae label. The source and original condensed PDF are different documents; the source has not been compiled or visually validated here.
 
 ## Preview
 
