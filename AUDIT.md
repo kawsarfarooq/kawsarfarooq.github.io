@@ -48,3 +48,10 @@ Unchanged: `assets/content.json`, `assets/favicon.svg`, `.nojekyll`, Git configu
 3. Follow README's exact publication commands from the inner repository only. Create an empty remote first; reconcile any existing remote history before pushing. Do not upload `private-review/` or the original starter archive.
 
 Sources used for remote checks: [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart), [pharmacy project](https://github.com/kawsarfarooq/Fair-pharmacy-night-shift-scheduling-as-a-DCOP), [wind-turbine project](https://github.com/kawsarfarooq/Wind-Turbine-Predictive-Maintenance).
+
+
+## Design revision — 26 October 2026
+
+At the owner's request, replaced the previous visual design with a restrained academic layout: warm ivory background, navy accents, serif name and headings, structured publication rows, simpler project cards, revised education layout and smaller decorative elements. Hero now leads with Kawsar Farooq and verified doctoral studies. Added the uploaded `07.png` portrait as `assets/portrait.png`, unchanged, with descriptive alt text, intrinsic dimensions and high loading priority. Original image retained.
+
+Modified `index.html`, `assets/styles.css`, `README.md` and this audit; added `assets/portrait.png`. Research JSON and JavaScript behavior were preserved. JavaScript syntax and existing mocked behavior tests passed again. HTML nesting, IDs, internal anchors, relative resources, PNG dimensions and unchanged portrait bytes were checked. CSS brace balance passed; no CSS parser or browser rendering was used. Browser discovery still reports no available browser, so visual rendering and responsive screenshot verification remain unverified. Nothing committed, pushed or deployed.

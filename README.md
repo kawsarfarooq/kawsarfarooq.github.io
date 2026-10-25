@@ -1,6 +1,6 @@
 # Kawsar Farooq — Academic Portfolio
 
-Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaScript and JSON; no backend or build step. Existing blue palette, monogram and card layout are retained.
+Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaScript and JSON; no backend or build step. The visual design uses warm ivory surfaces, navy accents, serif headings and a personal portrait, with responsive publication and project layouts.
 
 ## Files
 
@@ -9,6 +9,7 @@ Static academic portfolio for https://kawsarfarooq.github.io/. HTML, CSS, JavaSc
 - `assets/main.js`: content rendering, project search/filtering, accessible navigation and persistent color scheme.
 - `assets/styles.css`: responsive styles and accessibility states.
 - `assets/favicon.svg`: vector monogram.
+- `assets/portrait.png`: uploaded portrait used in the hero; original retained as `07.png`.
 - `cv/Kawsar_Farooq_CV_source.tex`: corrected LaTeX source; compile with XeLaTeX and the required packages/fonts.
 - `.nojekyll`: serve as a static site.
 - `AUDIT.md`: review results and outstanding checks.
